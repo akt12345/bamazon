@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "init": "^0.1.2",
+    "inquirer": "^5.0.1",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akt12345/bamazon.git"
+  },
+  "author": "Abby Thoresen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akt12345/bamazon/issues"
+  },
+  "homepage": "https://github.com/akt12345/bamazon#readme"
+}
