@@ -17,19 +17,40 @@
 // Once the update goes through, show the customer the total cost of their purchase.
 
 
-
+// Require mySql & Inquirer
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 
+
+// connection to
 var connection = mysql.createConnection({
   host: "localhost",
-  port: 3308,
-
+  port: 3306,
   user: "root",
-
-
   password: "",
   database: "bamazon_db"
 });
+
+
+// connect to the bamazon database
+connection.connect(function(err) {
+  if (err) throw err;
+  console.log('connected as id ' + connection.threadId);
+});
+
+
+// display all of the items available for sale. Include the ids, names, and prices of products for sale.
+var printTable = function() {
+  connection.query('SELECT * FROM products', function(err, res) {
+      console.log("❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂");
+      for (var i = 0; i < res.length; i++) {
+          console.log(res[i].item_id + " | " + res[i].product_name + " |  " + res[i].department_name + " | $" + res[i].price + " | " + res[i].stock_quantity);
+      }
+      console.log("❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂");
+
+  });
+};
+printTable();
+
 
 
