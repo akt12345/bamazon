@@ -2,7 +2,7 @@
 Running this application will first display all of the items available for sale.
 
 ##Include the ids, names, and prices of products for sale. (Included is the stock item "Quantity" at the end)
-<a href="/akt12345/bamazon/blob/master/assets/images/1.jpg" target="_blank"><img src="https://github.com/akt12345/bamazon/blob/master/assets/images/1.jpg" alt="Bamazon" style="max-width:100%;"></a>
+<a href="/akt12345/bamazon/blob/master/assets/images/1A.jpg" target="_blank"><img src="https://github.com/akt12345/bamazon/blob/master/assets/images/1A.jpg" alt="Bamazon" style="max-width:100%;"></a>
 
 
 ## The app should then prompt users with two messages.
@@ -28,7 +28,3 @@ npm packages: mySQL and inquirer
 
 ## Author
 Abby Thoresen copyright 2018
-<<<<<<< HEAD
-
-=======
->>>>>>> bf87895e9365a1ab4046fd3ae3b0bae4639ba33a
