@@ -4,6 +4,10 @@ Running this application will first display all of the items available for sale.
 ##Include the ids, names, and prices of products for sale.
 
 
+
+<a href="/akt12345/bamazon/blob/master/assets/images/1.jpg" target="_blank"><img src="/akt12345/bamazon/blob/master/assets/images/1.jpg" alt="Bamazon" style="max-width:100%;"></a>
+
+
 ##The app should then prompt users with two messages.
 The first should ask them the ID of the product they would like to buy.
 The second message should ask how many units of the product they would like to buy.
