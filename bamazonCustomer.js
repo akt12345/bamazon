@@ -39,7 +39,7 @@ connection.connect(function(err) {
 });
 
 
-// products display
+// product display
 var printTable = function() {
   connection.query('SELECT * FROM products', function(err, res) {
       console.log("❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂");
