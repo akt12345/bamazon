@@ -1,6 +1,6 @@
 # bamazon
 
-##Running this application will first display all of the items available for sale.
+## Running this application will first display all of the items available for sale.
 Include the ids, names, and prices of products for sale. (Included is the stock item "Quantity" at the end)
 <a href="/akt12345/bamazon/blob/master/assets/images/1A.jpg" target="_blank"><img src="https://github.com/akt12345/bamazon/blob/master/assets/images/1A.jpg" alt="Bamazon" style="max-width:100%;"></a>
 
