@@ -39,7 +39,7 @@ connection.connect(function(err) {
 });
 
 
-// display all of the items available for sale. Include the ids, names, and prices of products for sale.
+// product display
 var printTable = function() {
   connection.query('SELECT * FROM products', function(err, res) {
       console.log("❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂");
