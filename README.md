@@ -28,4 +28,7 @@ npm packages: mySQL and inquirer
 
 ## Author
 Abby Thoresen copyright 2018
+<<<<<<< HEAD
 
+=======
+>>>>>>> bf87895e9365a1ab4046fd3ae3b0bae4639ba33a
