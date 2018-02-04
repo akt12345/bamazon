@@ -5,7 +5,7 @@ Running this application will first display all of the items available for sale.
 
 
 
-<a href="/akt12345/bamazon/blob/master/assets/images/1.jpg" target="_blank"><img src="/akt12345/bamazon/blob/master/assets/images/1.jpg" alt="Bamazon" style="max-width:100%;"></a>
+<a href="/akt12345/bamazon/blob/master/assets/images/1.jpg" target="_blank"><img src="https://github.com/akt12345/bamazon/blob/master/assets/images/1.jpg" alt="Bamazon" style="max-width:100%;"></a>
 
 
 ##The app should then prompt users with two messages.
